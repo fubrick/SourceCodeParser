@@ -1,4 +1,6 @@
 *.class
-.DR_Store
+.DS_Store
 *.zip
-
+main.ccp
+source_code_file.txt
+stderr
