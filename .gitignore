@@ -1,6 +1,6 @@
 *.class
 .DS_Store
 *.zip
-main.ccp
+main.cpp
 source_code_file.txt
 stderr
