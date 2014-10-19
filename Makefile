@@ -45,3 +45,4 @@ run3:
 #
 clean: 
 	$(RM) *.class
+	$(RM) stderr
