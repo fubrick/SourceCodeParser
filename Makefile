@@ -32,13 +32,13 @@ compileFiles: CCppJavaParser.java
 # returns a (0) then nothing will be displayed on console. 
 run:
 	echo "\n\nTest run 1:" >> stderr
-	$(JAV) CCppJavaParser source_code_file.txt >> stderr
+	$(JAV) CCppJavaParser source_code_file.txt >> stderr 2>&1
 run2:
 	echo "\n\nTest run 2:" >> stderr
-	$(JAV) CCppJavaParser main.cpp >> stderr
+	$(JAV) CCppJavaParser main.cpp >> stderr 2>&1
 run3:
 	echo "\n\nTest run 3:" >> stderr
-	$(JAV) CCppJavaParser test.java >> stderr
+	$(JAV) CCppJavaParser test.java >> stderr 2>&1
 
 # To start over from scratch, type 'make clean'.  
 # Removes all .class files, so that the next make rebuilds them
